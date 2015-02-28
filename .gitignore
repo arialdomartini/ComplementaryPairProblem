@@ -1,0 +1,5 @@
+*.suo
+*.DotSettings.user
+packages/**
+*/bin/**
+*/obj/**
