@@ -12,6 +12,7 @@ namespace ComplementaryPairs.Test
 		public void ShouldFindTheNumberOfPairs(int target, int[] array, int expectedNumberOfPairs)
 	    {
 		    new BruteForceSolution().Solve(target, array).Should().Be(expectedNumberOfPairs);
+		    new PreCountSolution().Solve(target, array).Should().Be(expectedNumberOfPairs);
 	    }
     }
 }
